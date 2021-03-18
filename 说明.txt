@@ -1,0 +1,6 @@
+security_barrier_camera_demo.exe -i car_1.bmp -m C:\Users\Thredim\Documents\Intel\OpenVINO\openvino_models\ir\intel\vehicle-license-plate-detection-barrier-0106\FP16\vehicle-license-plate-detection-barrier-0106.xml -m_va C:\Users\Thredim\Documents\Intel\OpenVINO\openvino_models\ir\intel\vehicle-attributes-recognition-barrier-0039\FP16\vehicle-attributes-recognition-barrier-0039.xml -m_lpr C:\Users\Thredim\Documents\Intel\OpenVINO\openvino_models\ir\intel\license-plate-recognition-barrier-0001\FP16\license-plate-recognition-barrier-0001.xml
+
+security_barrier_camera_demo.exe -i car-detection.mp4 -m C:\Users\Thredim\Documents\Intel\OpenVINO\openvino_models\ir\intel\vehicle-license-plate-detection-barrier-0106\FP16\vehicle-license-plate-detection-barrier-0106.xml -m_va C:\Users\Thredim\Documents\Intel\OpenVINO\openvino_models\ir\intel\vehicle-attributes-recognition-barrier-0039\FP16\vehicle-attributes-recognition-barrier-0039.xml -m_lpr C:\Users\Thredim\Documents\Intel\OpenVINO\openvino_models\ir\intel\license-plate-recognition-barrier-0001\FP16\license-plate-recognition-barrier-0001.xml
+
+human_pose_estimation_demo -m C:\Users\Thredim\Documents\Intel\OpenVINO\openvino_models\ir\intel\human-pose-estimation-0001\FP16\human-pose-estimation-0001.xml -i people-detection.mp4
+Up2 Board: -d GPU 7fps -d CPU 0.7fps
